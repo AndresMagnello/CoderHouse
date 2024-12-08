@@ -1,0 +1,28 @@
+.ofertas-vuelos {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 50px;
+    justify-content: center;
+    width: 100%;
+    margin-top: 20px;}
+
+
+.ofertas-hoteles {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 50px;
+    justify-content: center;
+    width: 100%;
+    margin-top: 20px;
+}
+
+h3 {
+    padding-top: 10px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+    padding-left: 80px;
+    text-align: center;
+    font-size: x-large;
+    color: rgb(64, 43, 226);
+    background-color: rgb(173, 235, 228);
+}

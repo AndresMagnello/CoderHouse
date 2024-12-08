@@ -1,0 +1,25 @@
+
+@use '../global/variable' as *; 
+
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-style: groove;
+    background-color: aliceblue;
+    flex-wrap: wrap
+}
+
+.iconos {
+    font-size: 80px;
+    margin-right: 15px;
+    align-items: center;
+}
+
+.legales {
+    font-size: $font-size-small;
+    font-weight: bold
+}
+
+  

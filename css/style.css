@@ -1,0 +1,163 @@
+@charset "UTF-8";
+header {
+  background-color: rgb(167, 228, 221);
+  align-items: center;
+  padding: 10px;
+}
+header a {
+  color: rgb(64, 43, 226);
+  text-decoration: none;
+}
+
+.fa-envelope-o {
+  font-size: 24px;
+}
+
+.fa-whatsapp {
+  font-size: 36px;
+  color: rgb(0, 255, 13);
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-style: groove;
+  background-color: aliceblue;
+  flex-wrap: wrap;
+}
+
+.iconos {
+  font-size: 80px;
+  margin-right: 15px;
+}
+
+.legales {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.verticales {
+  background-color: rgb(130, 234, 222);
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+  border-style: solid;
+  padding-top: 50px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-left: 80px;
+  font-size: larger;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 767px) {
+  .verticales {
+    flex-direction: column;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    font-size: 16px;
+    justify-content: flex-start;
+  }
+  .verticales li {
+    margin-bottom: 10px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1199px) {
+  .verticales {
+    padding-top: 30px;
+    padding-right: 40px;
+    padding-bottom: 30px;
+    padding-left: 40px;
+    font-size: 18px;
+    justify-content: space-around;
+  }
+}
+@media (min-width: 1200px) {
+  .verticales {
+    padding-top: 50px;
+    padding-right: 80px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+    font-size: larger;
+    justify-content: space-around;
+  }
+}
+.btn a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.btn.primary {
+  background-color: rgb(167, 228, 221);
+}
+.caja-busqueda {
+  display: flex;
+  flex-direction: column; /* Organiza los elementos en columna */
+  align-items: center; /* Alinea al centro */
+  gap: 15px; /* Espaciado entre elementos */
+  padding: 20px; /* Espaciado interno */
+  border: 2px solid #ddd; /* Borde gris claro */
+  border-radius: 10px; /* Bordes redondeados */
+  background-color: #fff; /* Fondo blanco */
+  max-width: 600px; /* Ancho máximo */
+  width: 90%; /* Ocupa el 90% del ancho en pantallas pequeñas */
+}
+
+.video-promo-vuelos {
+  max-width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  padding: 10px;
+}
+
+iframe {
+  width: 100%;
+  height: 315px;
+  border-radius: 10px;
+}
+
+h2 {
+  padding-top: 10px;
+  padding-right: 30px;
+  padding-bottom: 10px;
+  padding-left: 80px;
+  text-align: center;
+  font-size: x-large;
+  color: rgb(64, 43, 226);
+  background-color: rgb(173, 235, 228);
+}
+
+.ofertas-vuelos {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 50px;
+  justify-content: center;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.ofertas-hoteles {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 50px;
+  justify-content: center;
+  width: 100%;
+  margin-top: 20px;
+}
+
+h3 {
+  padding-top: 10px;
+  padding-right: 30px;
+  padding-bottom: 10px;
+  padding-left: 80px;
+  text-align: center;
+  font-size: x-large;
+  color: rgb(64, 43, 226);
+  background-color: rgb(173, 235, 228);
+}
+
+/*# sourceMappingURL=style.css.map */
