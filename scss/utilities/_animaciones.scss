@@ -1,0 +1,52 @@
+
+@keyframes slideUp {
+    0% {
+      transform: translateY(100px); 
+      opacity: 0;  
+    }
+    100% {
+      transform: translateY(0);  
+      opacity: 1;  
+    }
+  }
+  
+ 
+  .card {
+    animation: slideUp 0.8s ease-out forwards;
+    opacity: 0;  
+    transform: translateY(100px);  
+  }
+  
+
+  .card:nth-child(1) {
+    animation-delay: 0.2s;
+  }
+  
+  .card:nth-child(2) {
+    animation-delay: 0.4s;
+  }
+  
+  .card:nth-child(3) {
+    animation-delay: 0.6s;
+  }
+  
+  .card:nth-child(4) {
+    animation-delay: 0.8s;
+  }
+
+  @keyframes slideInLeft {
+    0% {
+      transform: translateX(-100%);  
+      opacity: 0; 
+    }
+    100% {
+      transform: translateX(0);  
+      opacity: 1;  
+    }
+  }
+  
+
+  .fs-3 a {
+    animation: slideInLeft 1s ease-out forwards;
+  }
+  
