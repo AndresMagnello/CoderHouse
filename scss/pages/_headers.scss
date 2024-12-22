@@ -1,27 +1,22 @@
-
 @use '../global/variable' as *; 
 
 header {
-    background-color: $primary-color;
-    align-items: center;
-    padding: $spacing-small;
-  
-    a {
-      color: $accent-color;
-      text-decoration: none;
+  background-color: $primary-color;
+  align-items: center;
+  padding: $spacing-small;
 
-    }
-        }
+  a {
+    color: $accent-color;
+    text-decoration: none;
 
-  .fa-envelope-o {
-    font-size: 24px;
   }
+      }
 
-  .fa-whatsapp {
-    font-size: 36px;  
-    color: rgb(0, 255, 13);  
-  }
+.fa-envelope-o {
+  font-size: 24px;
+}
 
-  
-
-
+.fa-whatsapp {
+  font-size: 36px;  
+  color: rgb(0, 255, 13);  
+}
