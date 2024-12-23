@@ -1,4 +1,6 @@
 
+//efecto ofertas
+
 @keyframes slideUp {
     0% {
       transform: translateY(100px); 
@@ -34,7 +36,8 @@
     animation-delay: 0.8s;
   }
 
-  
+
+// efectos titulos 
 
   @keyframes slideInLeft {
     0% {
@@ -51,4 +54,16 @@
   .fs-3 a {
     animation: slideInLeft 1s ease-out forwards;
   }
+
+  // efecto botones 
+
+.btn-custom {
+    transition: transform 0.3s ease, background-color 0.3s ease;
+
+    &:hover {
+        transform: scale(1.05); 
+        background-color: $accent-color; 
+    }
+}
+
   
