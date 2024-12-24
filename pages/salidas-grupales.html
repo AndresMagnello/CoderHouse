@@ -32,7 +32,7 @@
 <body>
     <!--Incio -fondo comun a toda la web-->
 
-    <header class="row">
+    <header class="row" style="overflow-x: hidden; display: flex; align-items: center;">
         <div class="col"> <a href="index.html">
                 <img src="../images/imagen-gregoria-nueva.jpg" class="img-fluid" alt="logo-gregoria" width="250px"
                     height="150px">
@@ -77,48 +77,37 @@
     <!-- Listado de Verticales a desarrollar-->
 
     <section>
-        <ul class="verticales list-unstyled">
-            <li class="col-12 col-md-4 col-lg-2 mb-3"><button type="button"
-                    class="btn btn-primary btn-lg btn-custom w-100">
-                    <a href="../index.html">Vuelos
-                    </a></button>
-
-
+        <ul class="verticales list-unstyled d-flex flex-wrap justify-content-between">
+            <li class="col-12 col-md-4 col-lg-2 mb-3">
+                <a href="../index.html" class="btn btn-primary btn-lg btn-custom w-100 text-center">Vuelos</a>
             </li>
-
-            <li class="col-12 col-md-4 col-lg-2 mb-3"><button type="button"
-                    class="btn btn-primary btn-lg btn-custom w-100">
-                    <a href="../pages/hoteles.html">Hoteles
-                    </a></button>
+    
+            <li class="col-12 col-md-4 col-lg-2 mb-3">
+                <a href="../pages/hoteles.html" class="btn btn-primary btn-lg btn-custom w-100 text-center">Hoteles</a>
             </li>
-
-            <li class="col-12 col-md-4 col-lg-2 mb-3"><button type="button"
-                    class="btn btn-primary btn-lg btn-custom w-100">
-                    <a href="../pages/paquetes.html">Paquetes
-                    </a> </button>
+    
+            <li class="col-12 col-md-4 col-lg-2 mb-3">
+                <a href="../pages/paquetes.html" class="btn btn-primary btn-lg btn-custom w-100 text-center">Paquetes</a>
             </li>
-
-            <li class="col-12 col-md-4 col-lg-2 mb-3"><button type="button"
-                    class="btn btn-primary btn-lg btn-custom w-100">
-                    <a href="../pages/autos.html">Autos
-                    </a></button>
+    
+            <li class="col-12 col-md-4 col-lg-2 mb-3">
+                <a href="../pages/autos.html" class="btn btn-primary btn-lg btn-custom w-100 text-center">Autos</a>
             </li>
-
-            <li class="col-12 col-md-4 col-lg-2 mb-3"> <button type="button"
-                    class="btn btn-primary btn-lg btn-custom w-100">
-                    <a href="../pages/salidas-grupales.html">Salidas Grupales
-                    </a></button>
+    
+            <li class="col-12 col-md-4 col-lg-2 mb-3">
+                <a href="../pages/salidas-grupales.html" class="btn btn-primary btn-lg btn-custom w-100 text-center">Salidas Grupales</a>
             </li>
         </ul>
+    </section>
+    
+
 
 
     </section>
     <!--ejemplo busqueda vuelos, aca luego debe ir el motor de la mayorista-->
-
     <h3>Sumate a las mejores salidas grupales disponibles a todo el mundo</h3>
 
     <div class="ofertas-vuelos">
-    
         <div class="card" style="width: 18rem;">
             <img src="../images/imagen-balcanes.jpg" class="card-img-top" alt="Viaje grupal a la Península Balcánica">
             <div class="card-body">
@@ -154,8 +143,8 @@
                 <a href="https://www.dopazoyravenna.com/viajesgrupalesdetalle.php?id=9143" class="btn btn-success">+ Info</a>
             </div>
         </div>
-    
     </div>
+    
     
 
 

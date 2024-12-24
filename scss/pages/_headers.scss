@@ -5,6 +5,8 @@ header {
     background-color: $primary-color;
     align-items: center;
     padding: $spacing-small;
+    display: flex;
+    overflow-x: hidden;
   
     a {
       color: $accent-color;
