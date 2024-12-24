@@ -2,6 +2,8 @@ header {
   background-color: rgb(167, 228, 221);
   align-items: center;
   padding: 10px;
+  display: flex;
+  overflow-x: hidden;
 }
 header a {
   color: rgb(64, 43, 226);
