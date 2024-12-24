@@ -91,6 +91,16 @@ footer {
     justify-content: space-around;
   }
 }
+.btn {
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  transform: scale(1.1);
+  background-color: #af4c9d;
+  color: white;
+}
+
 .btn a {
   color: #fff;
   text-decoration: none;
