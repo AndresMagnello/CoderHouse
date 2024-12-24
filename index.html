@@ -102,48 +102,68 @@
 
     <h2 class="text-center">Los mejores vuelos para vos</h2>
 
-    <button type="button" class="btn btn-secondary">Ciudad de salida
-        <select id="ciudad-de-salida" name="ciudad-de-salida" required>
-            <option value="buenos-aires">Buenos Aires</option>
-            <option value="cordoba">Cordoba</option>
-            <option value="mendoza">Mendoza</option>
-            <option value="Salta">Salta</option>
-            <option value="Neuquen">Neuquen</option>
-        </select>
-
-
-
-        <button type="button" class="btn btn-secondary">Ciudad Destino
-            <select id="ciudad-destino" name="ciudad-destino" required>
-                <option value="miami">Miami</option>
-                <option value="londres">Londres</option>
-                <option value="paris">París</option>
-                <option value="roma">Roma</option>
-                <option value="cancun">Cancun</option>
-                <option value="punta-cana">Punta Cana</option>
-                <option value="rio">Rio de Janeiro</option>
-                <option value="santiago">Santiago de Chile</option>
-            </select>
-        </button>
-
-
-
-        <button type="button" class="btn btn-secondary">Fecha de salida
-            <input type="date" id="fecha-de-salida" name="fecha-de-salida" required>
-        </button>
-
-        <button type="button" class="btn btn-secondary">Fecha de regreso
-            <input type="date" id="fecha-de-regreso" name="fecha-de-regreso" required>
-        </button>
-
-        <button type="button" class="btn btn-secondary">Cantidad de Personas
-            <input type="number" id="cantidad-personas" name="cantidad-personas" min="1" max="12" required>
-        </button>
-
-
-        <button type="button" class="btn btn-success">Consultar </button>
-
-
+    <div class="bg-light p-4">
+        <div class="d-flex justify-content-around align-items-center flex-wrap">
+            <div class="mb-3">
+                <label for="ciudad-de-salida" class="form-label fw-bold">Ciudad de salida</label>
+                <div class="input-group">
+                    <span class="input-group-text">🛫</span>
+                    <select id="ciudad-de-salida" name="ciudad-de-salida" required class="form-select">
+                        <option value="buenos-aires">Buenos Aires</option>
+                        <option value="cordoba">Córdoba</option>
+                        <option value="mendoza">Mendoza</option>
+                        <option value="salta">Salta</option>
+                        <option value="neuquen">Neuquén</option>
+                    </select>
+                </div>
+            </div>
+    
+            <div class="mb-3">
+                <label for="ciudad-destino" class="form-label fw-bold">Ciudad Destino</label>
+                <div class="input-group">
+                    <span class="input-group-text">🌎</span>
+                    <select id="ciudad-destino" name="ciudad-destino" required class="form-select">
+                        <option value="miami">Miami</option>
+                        <option value="londres">Londres</option>
+                        <option value="paris">París</option>
+                        <option value="roma">Roma</option>
+                        <option value="cancun">Cancún</option>
+                        <option value="punta-cana">Punta Cana</option>
+                        <option value="rio">Río de Janeiro</option>
+                        <option value="santiago">Santiago de Chile</option>
+                    </select>
+                </div>
+            </div>
+    
+            <div class="mb-3">
+                <label for="fecha-de-salida" class="form-label fw-bold">Fecha de salida</label>
+                <div class="input-group">
+                    <span class="input-group-text">📅</span>
+                    <input type="date" id="fecha-de-salida" name="fecha-de-salida" required class="form-control">
+                </div>
+            </div>
+    
+            <div class="mb-3">
+                <label for="fecha-de-regreso" class="form-label fw-bold">Fecha de regreso</label>
+                <div class="input-group">
+                    <span class="input-group-text">📅</span>
+                    <input type="date" id="fecha-de-regreso" name="fecha-de-regreso" required class="form-control">
+                </div>
+            </div>
+    
+            <div class="mb-3">
+                <label for="cantidad-personas" class="form-label fw-bold">Cantidad de personas</label>
+                <div class="input-group">
+                    <span class="input-group-text">👨‍👩‍👧‍👦</span>
+                    <input type="number" id="cantidad-personas" name="cantidad-personas" min="1" max="12" required class="form-control">
+                </div>
+            </div>
+    
+            <button type="submit" class="btn btn-success mt-3">Consultar</button>
+        </div>
+    </div>
+    
+    
         <!--Video promocional aereos-->
 
         <div class="video-promo-vuelos">

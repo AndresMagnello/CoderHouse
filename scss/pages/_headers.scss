@@ -7,6 +7,7 @@ header {
     padding: $spacing-small;
     display: flex;
     overflow-x: hidden;
+    max-width: 100%;
   
     a {
       color: $accent-color;
